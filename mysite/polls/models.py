@@ -21,4 +21,4 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
     def __str__(self):
-        return f'C: "{self.choice_text}" with {self.votes} votes'
+        return f'C: "{self.choice_text}" from Q: "{self.question.question_text}" with {self.votes} votes'
