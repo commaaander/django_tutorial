@@ -1,4 +1,4 @@
-.tutorial-venv/
+.django-tutorial-venv/
 .vscode/
 __pycache__/
 
